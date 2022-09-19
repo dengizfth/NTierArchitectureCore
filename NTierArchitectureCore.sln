@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTAC.Core", "NTAC.Core\NTAC.Core.csproj", "{0635032A-FDC9-4831-94AB-33E99DE42FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0635032A-FDC9-4831-94AB-33E99DE42FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0635032A-FDC9-4831-94AB-33E99DE42FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0635032A-FDC9-4831-94AB-33E99DE42FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0635032A-FDC9-4831-94AB-33E99DE42FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E2E4191-74C3-4F6D-9B76-AF3EE649C4E7}
+	EndGlobalSection
+EndGlobal
