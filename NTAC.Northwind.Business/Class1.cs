@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NTAC.Core
+namespace NTAC.Northwind.Business
 {
     public class Class1
     {
