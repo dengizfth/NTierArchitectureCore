@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NTAC.Core\NTAC.Core.csproj" />
+    <ProjectReference Include="..\NTAC.Northwind.Entities\NTAC.Northwind.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
