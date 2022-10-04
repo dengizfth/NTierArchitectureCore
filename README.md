@@ -3,6 +3,20 @@
 
 ## Projede Kullanılan Teknolojiler 
 ### Proje Backend : 
+##DataBase :
+#### Entity
+#### NHibernate
+#### LinQ
+#### T-Sql
+#### Sql Trigger 
+## Test :
+##
+##
+##
+##
+
+
+
 
 
 
