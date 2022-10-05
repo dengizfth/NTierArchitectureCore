@@ -1,5 +1,4 @@
 ﻿using NTAC.Core.DataAccess;
-using NTAC.Northwind.Entities.ComplexTypes;
 using NTAC.Northwind.Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,10 +8,8 @@ using System.Threading.Tasks;
 
 namespace NTAC.Northwind.DataAccess.Abstract
 {
-    public interface IProductDal :IEntityRepository<Product>
+    public interface ICategoryDal :IEntityRepository<Category>
     {
-
-        List<ProductDetail> GetProductDetails();
-
     }
 }
+ 

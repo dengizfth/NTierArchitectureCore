@@ -20,13 +20,15 @@ namespace NTAC.Northwind.DataAccess.Concrete.EntityFramework
 
         
         public DbSet<Product> Products { get; set; }
-        // Ve Diper Tablolar ...
+        public DbSet<Category> Categories { get; set; }
+        // Ve Diğer Tablolar ...
 
 
         // Mapping İşlemini Ayağa Kaldırmak için :
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new ProductMap());
+            modelBuilder.Configurations.Add(new CategoryMap());
             // Ve Diper Mapping işlmeri Buraya Eklenir ...
         }
 
