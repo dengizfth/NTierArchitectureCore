@@ -56,8 +56,6 @@ namespace NTAC.Core.DataAccess.EntityFramework
             }
         } 
 
-      
-
         public TEntity Update(TEntity entity)
         {
             using (var context = new TContext())
